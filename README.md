@@ -1,5 +1,5 @@
 # E-banking_Automation Mini-Project
- Build and Develop E-bankingAutomation_Mini-Project with Selenium Hybrid Automation Framework From Scratch.
+Build and Develop Hybrid Automation Framework From scratch with Java and Selenium.
 
 STAGES/PHASES
 -----------------
