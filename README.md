@@ -1,4 +1,4 @@
-# E-bankingAutomation_Mini-Project
+# E-banking_Automation Mini-Project
  Build and Develop E-bankingAutomation_Mini-Project with Selenium Hybrid Automation Framework From Scratch.
 
 STAGES/PHASES
