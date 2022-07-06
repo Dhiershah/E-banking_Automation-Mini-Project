@@ -16,7 +16,7 @@ public class TC_LoginDDT_002 extends BaseClass
 	public void loginDDT(String user,String pwd) throws InterruptedException
 	{
 		LoginPage lp = new LoginPage(driver);
-		lp.SetUserName(user);
+		lp.setUserName(user);
 		logger.info("user name provided");
 		lp.setPassword(pwd);
 		logger.info("password provided");
@@ -60,8 +60,8 @@ public class TC_LoginDDT_002 extends BaseClass
 	{
 		String path = System.getProperty("user.dir")+"/src/test/java/com/inetbanking/testData/LoginData.xlsx";
 		
-		int rownum = XLUtils.getRowCount(path,"sheet1");
-		int colcount = XLUtils.getCellCount(path, "sheet1",1);
+		int rownum = XLUtils.getRowCount(path,"sheet2");
+		int colcount = XLUtils.getCellCount(path, "sheet2",1);
 		
 		
 		String logindata[][]=new String[rownum][colcount];
